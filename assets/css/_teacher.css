@@ -1,0 +1,43 @@
+/* start teacher section styles */
+.teacher-wrapper {
+  background-image: url("../img/bg-3.jpg");
+}
+.teacher-wrapper img {
+  margin-bottom: -10px;
+}
+.mb-50 {
+  margin-bottom: 50px;
+}
+div.about-teacher {
+  background-color: rgba(201, 252, 208, .7);
+  width: 100%;
+  min-height: 100px;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px 0;
+  color: rgb(48, 48, 48);
+  box-shadow: rgb(65 110 96) 0px 2px 5px 1px;;
+}
+div.about-teacher h4 {
+  text-align: center;
+}
+div.about-teacher a {
+  text-decoration: none;
+  min-width: 50px;
+  color: rgb(48, 48, 48);
+  border: 2px solid orange;
+  padding: 0 10px 5px;
+  border-radius: 7px;
+  margin-top: 5%;
+  margin-right: 45%;
+  display: inline-block;
+  transition:all .5s ease;
+}
+div.about-teacher a:hover {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  background-color: orange;
+}
+/* end teacher section styles */

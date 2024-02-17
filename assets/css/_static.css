@@ -1,0 +1,40 @@
+/* start static section style */
+.static-section {
+    background-color: rgb(255, 208, 0);
+    min-height: 200px;
+    padding-bottom: 50px;
+    margin: 250px 0 200px;
+}
+.font-s .count,p{
+    font-size: 17pt;
+}
+.font-s i{
+    font-size: 30pt;
+}
+/* .static-header {
+    margin-bottom: 50px;
+}
+.static-header span.stat {
+    font-size: 30px;
+    position: relative;
+}
+.static-header span.stat::before {
+    content: "";
+    background-color: rgb(182, 92, 44);
+    width: 60px;
+    height: 3px;
+    top: 30px;
+    right: -80px;
+    position: absolute;
+}
+.static-header span.stat::after {
+    content: "";
+    background-color: rgb(182, 92, 44);
+    width: 60px;
+    height: 3px;
+    top: 30px;
+    right: 185px;
+    position: absolute;
+} */
+
+/* end static section style */

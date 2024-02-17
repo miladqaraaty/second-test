@@ -1,0 +1,114 @@
+/* start topic section style */
+.topic-title span {
+  position: relative;
+  font-size: 22px;
+}
+.topic-title span::before {
+  content: "";
+  background-color: rgb(214, 124, 75);
+  width: 50px;
+  height: 3px;
+  position: absolute;
+  top: 19px;
+  right: -125px;
+}
+.topic-title span::after {
+  content: "";
+  background-color: rgb(214, 124, 75);
+  width: 50px;
+  height: 3px;
+  position: absolute;
+  top: 19px;
+  right: 75px;
+}
+.topic-section {
+  background-image: url("../img/bg-4.jpg");
+  /* background-position: center; 
+  background-repeat: no-repeat; */
+  background-size:cover;
+  margin-bottom: 100px;
+  padding: 50px 0 120px 0;
+  margin-left: 40px;
+}
+.topic-wrapper .footer-card ul {
+    padding: 10px 0px;
+    background-color: rgb(255, 255, 255);
+}
+.topic-wrapper .footer-card li {
+    list-style-type: none;
+    display: inline;
+    padding: 10px 15px 10px 0;
+}
+.topic-wrapper .header-card {
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.356);
+}
+.topic-wrapper .header-card img {
+    transition:all .5s ease;
+}
+.topic-wrapper:hover img {
+    transform: scale(1.4) rotate(10deg);
+}
+.topic-wrapper .card {
+    box-shadow: rgb(204, 179, 103) 0px 2px 5px 1px;
+    background-color: rgb(255, 255, 255);
+}
+.topic-wrapper .body-card {
+    margin: 20px 0 0 0;
+    border-bottom: 1px solid #dfdfdf;
+    background-color: rgb(255, 255, 255);
+}
+.topic-wrapper .body-card p,a {
+    padding-right: 10px;
+    color: #272727;
+    font-size: 17px;
+}
+.topic-wrapper .body-card a {
+    padding-right: 10px;
+}
+.topic-wrapper .body-card p {
+    margin: 10px 0;
+    color: #303030;
+    text-align: center;
+}
+.topic-wrapper .footer-card i {
+    font-size: 14px;
+    color: #605f5f;
+}
+.topic-wrapper .footer-card span {
+    font-size: 18px;
+    padding-right: 2px;
+    color: #3f3f3f;
+}
+.topic-wrapper .body-card div.absolute {
+    top: -51px;
+}
+.topic-wrapper .body-card div.absolute div {
+    font-size: 18px;
+    margin-top: -10px;
+    margin-right: 20px;
+    color: #ffffff;
+    text-align: center;
+    width: 30px;
+}
+.topic-wrapper .body-card div.absolute div:first-child {
+    background-color: rgb(211, 110, 28);
+    padding: 0px 7px 10px 7px;
+}
+.topic-wrapper .body-card div.absolute div:last-child {
+    background-color: rgb(2, 33, 58);
+    padding: 0px 7px;
+}
+
+
+/* @media screen and (min-width:576px) and (max-width:700px) {
+    .topic-wrapper .footer-card li {
+    padding: 10px 20px 10px 0;
+}
+}
+@media screen and (min-width:701px) and (max-width:734px) {
+    .topic-wrapper .footer-card li {
+    padding: 10px 22px 10px 0;
+}
+} */
+/* end topic section style */

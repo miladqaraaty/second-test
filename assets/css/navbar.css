@@ -1,0 +1,66 @@
+body {
+  background-color: rgb(234, 241, 248);
+}
+/* start navbar section styles */
+.fa-graduation-cap {
+  font-size: large;
+  padding: 9px;
+  vertical-align: -3px;
+  /* position: absolute; */
+}
+.nav {
+  box-shadow: 0px 3px 14px 3px rgb(218, 217, 217);
+  position: relative;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.nav a {
+  color: rgb(26, 25, 25);
+  font-size: 18px;
+  text-decoration: none;
+  padding: 5px;
+  /* float: right; */
+  overflow: hidden;
+  text-align: center;
+}
+.nav a:not(:last-child):hover {
+  border-bottom: 2px solid orange;
+}
+.berger {
+  float: left;
+  padding: 8px 15px;
+  font-size: 22px;
+}
+@media screen and (max-width: 575px) {
+  .nav a:not(:last-child) {
+    display: none;
+  }
+  .nav a.icon {
+    display: block;
+    float: left;
+  }
+  .nav.responsive {
+    position: relative;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+  .nav.responsive a {
+    display: block;
+    text-align: center;
+    float: center;
+  }
+  .nav.responsive .icon {
+    position: absolute;
+    float: left;
+    top: 0;
+    left: 0;
+  }
+}
+@media screen and (min-width: 576px) {
+  .nav a.icon {
+    display: none;
+  }
+}
+/* end navbar section styles */

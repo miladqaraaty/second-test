@@ -1,0 +1,182 @@
+/* start footer section style */
+.footer-section {
+    background-color: rgb(11, 11, 43);
+    min-height: 500px;
+    color: #fff;
+    margin-bottom: -500px;
+}
+.footer-section .fa-graduation-cap {
+    font-size: 35px;
+    transform: rotate(-20deg);
+    color: greenyellow;
+    margin: -70px 5px 0 0;
+    
+}
+.first-col .test-footer1 {
+    margin: 0 80px 10px 0;
+    padding-top: 30px;
+    font-size: 22px;
+}
+.fa-graduation-cap h3 {
+    padding: 10px 0px 0 0;
+    font-size: 14px;
+}
+.first-col p {
+    font-size: 18px;
+    text-align: justify;
+    padding: 10px 15px 10px 5px;
+}
+.footer-section .second-col{
+    /* margin-right: 30px; */
+    overflow: hidden;
+}
+.second-col .tabs {
+    margin-right: 30px;
+}
+.second-col .title-second {
+    padding: 0 0 0 20px;
+    margin-right: 30px;
+}
+.footer-section .second-col h3 {
+    font-size: 22px;
+    text-align: justify;
+    padding: 30px 10px 15px 0px;
+    border-bottom: 1px solid #65636b;
+}
+.second-col .tab input {
+    display: none;
+}
+.second-col .tab label {
+    padding: 15px 5px 0px 0;
+    font-size: 20px;
+    cursor: pointer;
+    display: block;
+    transition: all .5s ease;
+}
+.second-col .tab label:hover {
+    color: rgb(238, 255, 0);
+    transition: all .5s ease;
+}
+.second-col .tab-label::before {
+    content: '\276f';
+    font-size: 16px;
+    font-weight: 300;
+    padding: 5px 0 0 0px;
+    margin-right: 5px;
+    margin-left: 10px;
+    float: right;
+    transition: all .5s ease;
+}
+.second-col .tab-content {
+    max-height: 0;
+    display: none;
+}
+.second-col .tab input:checked ~ .tab-content {
+    display: block;
+    max-height: max-content;
+    margin:5px 20px 0px 5px;
+    padding-bottom: 0px;
+}
+.second-col .tab input:checked + .tab-label::before {
+    transform: rotate(-90deg);
+}
+.third-col .title-third {
+    padding: 0 0 0 2px;
+}
+.title-third h3 {
+    font-size: 20px;
+    text-align: justify;
+    padding: 30px 5px 18px 0;
+    border-bottom: 1px solid #65636b;
+}
+.footer-icons i {
+    color: #fff;
+    font-size: 22pt;
+    padding: 20px 7px 10px 7px;
+    transition: all .4s;
+}
+.footer-icons i:hover {
+    background-color: orange;
+}
+.footer-icons {
+    text-align: right;
+}
+@media screen and (max-width:767px) {
+    .footer-icons {
+        text-align: center;
+    }
+    .footer-icons i {
+        text-align: center;
+        padding-top: -10px;
+    }
+    .title-third h3 {
+        text-align: center;
+    }
+    .third-col .title-third {
+        padding: 0 15px 0 0;
+    }
+    .third-col form.relative {
+        margin-right: 20px;
+    }
+    .third-col form.relative input[type=submit] {
+        right: 150px;
+    }
+    .forth-wrapper .title-forth h3 {
+        text-align: center;
+    }
+}
+.third-col form {
+    margin: 30px 10px 100px;
+}
+.third-col form input[type=text] {
+    outline: none;
+    height: 34px;
+    width: 170px;
+}
+.third-col form input[type=submit] {
+   right: 125px;
+   background-color: orange;
+   border: none;
+   padding: 5px 8px 6px 10px;
+   cursor: pointer;
+   top: 0;
+}
+.forth-col .forth-wrapper {
+    padding: 10px 20px 100px 5px;
+    overflow: hidden;
+}
+.title-forth h3 {
+    font-size: 20px;
+    text-align: justify;
+    padding: 20px 10px 18px 0;
+    border-bottom: 1px solid #65636b;
+}
+.body-forth {
+    padding: 0 5px;
+}
+.body-forth div {
+    padding-top: 15px;
+}
+.forth-wrapper i {
+    vertical-align: -2px;
+    color: blanchedalmond;
+}
+.forth-wrapper span {
+    padding: 0 5px;
+    color: antiquewhite;
+}
+.copy-right {
+    padding: 150px 0 10px;
+    color: rgb(250, 218, 169);
+}
+.copy-right p {
+    border-top: 1px solid rgb(34, 34, 90);
+    font-size: 14pt;
+}
+.fa-copyright {
+    padding: 10px;
+    font-size: 12pt;
+}
+
+
+/* end footer section style */

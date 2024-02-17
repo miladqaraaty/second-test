@@ -1,0 +1,33 @@
+/* start contact section styles */
+.custom {
+    background-color: rgb(0, 0, 100);
+    min-height: 40px;
+    color: #ffffff;
+}
+.right-icons i {
+    margin-right: 5px;
+    margin-top: 12px;
+    font-size: 16px;
+    color: orange;
+}
+.custom .row span {
+    margin-left: 3px;
+    font-size: 11pt;
+    vertical-align: 2px;
+    color: white;
+}
+.left-icons i {
+    margin-left: 10px;
+    padding: 9px;
+    vertical-align: -7px;
+    font-size: 22px;
+    float: left;
+    transition: all .5s;
+}
+.left-icons i:hover {
+    background-color: orange;
+}
+.dir-ltr a {
+    color: #ffffff;
+}
+/* end contact section styles */
